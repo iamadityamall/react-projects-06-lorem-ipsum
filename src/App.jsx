@@ -15,6 +15,7 @@ const App = () => {
 
   useEffect(() => {
     document.body.style.backgroundColor = "#f1f5f8";
+    document.title = "Lorem Ipsum"
   }, []);
 
   const handleSubmit = (e) => {
